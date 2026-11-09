@@ -1,0 +1,45 @@
+body{
+    background:#121212;
+    color:white;
+    font-family:Arial,sans-serif;
+    margin:0;
+}
+
+.container{
+    max-width:1200px;
+    margin:auto;
+    padding:20px;
+}
+
+.cards{
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.card{
+    background:#1e1e1e;
+    padding:20px;
+    border-radius:10px;
+    flex:1;
+}
+
+.form{
+    margin:20px 0;
+}
+
+input,select,button{
+    padding:10px;
+    margin:5px;
+}
+
+button{
+    background:#00a86b;
+    color:white;
+    border:none;
+    cursor:pointer;
+}
+
+li{
+    margin:10px 0;
+}
